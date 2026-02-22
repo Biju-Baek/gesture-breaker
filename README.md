@@ -8,27 +8,24 @@ Neon‑arcade, webcam‑controlled brick breaker. Steer a glowing paddle with yo
 - Make a fist near the paddle to magnet‑catch and relaunch (has cooldown).
 - Goal: score as many points as possible in 60 seconds.
 
-Scoring and items
+**Scoring and items**
 - ⭐️ Star: +50 points
 - 🤩 Bonus star: visually marked “double‑point” star from orange bounty bricks (adds +50 points; visual distinction)
 - 💀 Skull: shrinks the paddle temporarily (avoid)
 - Orange bricks drop extra stars more often
 - 100 points unlocks a second ball; you’ll juggle two balls after that
 
-Rules and feedback
+**Rules and feedback**
 - 3 lives per run; missing the ball loses a life.
 - Dynamic bounces based on where the ball hits the paddle.
 - Combo sound escalates as you break bricks without touching the paddle.
 - Local leaderboard (saved in your browser) ranks your best 60‑second runs.
 
-Run it
-- Live (GitHub Pages): https://YOUR_USERNAME.github.io/REPO_NAME
-- Locally (needs HTTPS or localhost for camera):
-  - With Node: npx http-server . then open http://127.0.0.1:8080
-  - Or use any static server/“Live Server” extension
+**Run it**
+- Live (GitHub Pages): [https://YOUR_USERNAME.github.io/REPO_NAME](https://biju-baek.github.io/gesture-breaker/)
 - Allow camera access when prompted. Good lighting improves tracking.
 
-Tech stack
+**Tech stack**
 - MediaPipe Hands (gesture + x‑axis hand tracking)
 - HTML5 Canvas (rendering, particles)
 - Web Audio API (synth SFX)
